@@ -38,6 +38,10 @@ DEPEND="
 	${RDEPEND}
 "
 
+PATCHES=(
+	"${FILESDIR}"/${PN}-10.3-fno-common.patch
+)
+
 src_prepare() {
 	default
 
